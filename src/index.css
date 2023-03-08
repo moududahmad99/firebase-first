@@ -54,5 +54,14 @@ Grid {
 
 
 .closeIcon {
-  font-size: 44px !important;
+  font-size: 14px !important;
+  cursor: pointer;
+  text-align: left !important;
+}
+
+.errorMessage {
+  color: rgb(197, 59, 59);
+  font-variant: small-caps;
+  letter-spacing: 2px;
+  font-size: 16px;
 }
