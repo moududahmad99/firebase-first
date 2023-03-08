@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Raleway:wght@200;400&family=Rubik+Iso&display=swap');
+Grid {
+  margin-top: 29px;
+}
+.inputs {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.error {
+  color: red !important;
+}
+
+.button {
+  margin-top: 20px !important;
+  color: rgb(102, 102, 102) !important;
+  border: thin solid rgb(102, 102, 102) !important;
+}
+
+.main-form {
+  justify-content: center;
+  display: flex;
+}
+
+.dataRead {
+  padding: 70px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  height: 70%;margin-bottom: 60px;
+}
+
+.dataBox {
+  margin-top: 20px;
+  background: #d8d8d675;
+  color: #021e4e;
+  font-size: 18px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0px 0px 5px 0px rgba(218, 218, 218, 0.75);
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(214, 211, 211, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(194, 188, 188, 0.75);
+}
+
+.dataBox p {
+  font-family: 'Raleway';
+  font-weight: 500;
+  font-size: 18px;
+}
+
+
+.closeIcon {
+  font-size: 44px !important;
+}
